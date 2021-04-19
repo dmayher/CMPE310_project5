@@ -154,12 +154,6 @@ Entry Wire Line
 	3450 6050 3550 6150
 Text GLabel 2500 7450 0    50   Input ~ 0
 A19
-Wire Wire Line
-	1100 5450 1450 5450
-Wire Wire Line
-	1450 5450 1450 6600
-Wire Wire Line
-	800  6600 1450 6600
 Text Label 3300 6300 0    50   ~ 0
 CS2
 Text GLabel 4000 1950 0    50   Input ~ 0
@@ -368,6 +362,7 @@ Text GLabel 4000 1550 0    50   Input ~ 0
 ~RD
 Text GLabel 4000 1650 0    50   Input ~ 0
 ~WR
+NoConn ~ 5700 1150
 Wire Bus Line
 	3550 4850 3550 6050
 Wire Bus Line
